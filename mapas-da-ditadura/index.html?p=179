@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Laís Abramo | Mapas da Ditadura</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/xmlrpc.php" />
+<link rel="shortcut icon" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/img/favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css' />
+<link rel="alternate" type="application/rss+xml" title="Feed de Mapas da Ditadura &raquo;" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mapas da Ditadura &raquo;  Feed de comentários" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mapas da Ditadura &raquo; Laís Abramo  Feed de comentários" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/lais-abramo/feed/" />
+<link rel='stylesheet' id='jeo-base-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/css/base.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jeo-skeleton-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/css/skeleton.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jeo-lsf-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/css/lsf.css?ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='font-opensans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&#038;ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='jeo-main-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/css/main.css?ver=0.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='shadowbox-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/shadowbox/shadowbox.css?ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='bxslider-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/jquery.bxslider/jquery.bxslider.css?ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='afdm-main-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/css/main.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='leaflet-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/leaflet/leaflet.css?ver=4.0.24' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='leaflet-ie-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/leaflet/leaflet.ie.css?ver=4.0.24' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='mapbox-js-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/mapbox/mapbox.standalone.css?ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='jeo-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/css/jeo.css?ver=0.0.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/inc/lightbox/js/lightbox.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/jquery.autosize-min.js?ver=1.16.7'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/jquery.jeditable.mini.js?ver=4.0.24'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var artguides = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","confirm_delete":"Voc\u00ea tem certeza?","sending_msg":"Enviando dados..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/inc/artguides/js/artguides.js?ver=0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var artists = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","confirm_delete":"Voc\u00ea tem certeza?","sending_msg":"Enviando dados..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/inc/artists/js/artists.js?ver=0.2'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/jquery.form.js?ver=3.34.0-test1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var artworks = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","sending_msg":"Enviando dados...","crunching_msg":"Finalizando..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/inc/artworks/js/artworks.js?ver=0.0.6'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/shadowbox/shadowbox.js?ver=3.0.3'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/jquery.bxslider/jquery.bxslider.min.js?ver=4.0.24'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/lib/responsive-nav.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/ui/jquery.ui.effect.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/ui/jquery.ui.effect-slide.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/js/arteforadomuseu.js?ver=0.1.9'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/leaflet/leaflet.js?ver=0.7'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/mapbox/mapbox.standalone.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jeo_localization = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","more_label":"Mais"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/jeo.js?ver=0.4.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jeo_groups = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","more_label":"Mais"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/groups.js?ver=0.2.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jeo_labels = {"search_placeholder":"Encontre no mapa","results_title":"Resultados","clear_search":"Fechar busca","not_found":"Nada encontrado, tente outra busca"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/geocode.js?ver=0.0.5'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/fullscreen.js?ver=0.0.7'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/filter-layers.js?ver=0.1.3'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/ui.js?ver=0.0.9'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/hash.js?ver=0.1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var geocode_localization = {"type":"default","service":"osm","not_found":"N\u00e3o encontramos resultados para o que procura, tente novamente.","results_found":"resultados encontrados"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/geocode.box.js?ver=0.5.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Antônio Batista' href='http://memoriasdaditadura.org.br/mapas-da-ditadura/antonio-batista/' />
+<link rel='next' title='Shellah Avellar' href='http://memoriasdaditadura.org.br/mapas-da-ditadura/shellah-avellar/' />
+<meta name="generator" content="WordPress 4.0.24" />
+<link rel='canonical' href='http://memoriasdaditadura.org.br/mapas-da-ditadura/lais-abramo/' />
+<link rel='shortlink' href='http://memoriasdaditadura.org.br/mapas-da-ditadura/?p=179' />
+
+ <!-- OneAll.com / Social Login for WordPress / v4.6 -->
+<script type="text/javascript">
+ (function() {
+  var oa = document.createElement('script'); oa.type = 'text/javascript';
+  oa.async = true; oa.src = 'http://mapasditadura.api.oneall.com/socialize/library.js'
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oa, s);
+ })();
+</script>
+    <style type="text/css">
+        #masthead,
+        .displaying-map #masthead,
+        #masthead #masthead-nav #searchform > div,
+        .displaying-map #masthead #masthead-nav #searchform > div  {
+    		background-color: ;
+    	}
+    </style>
+    	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#fff100">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+</head>
+<body class="single single-post postid-179 single-format-standard pt-BR">
+<a class="portal-bar" href="http://memoriasdaditadura.org.br" title="Acesse a página inicial do Portal Memórias da Ditadura">
+	<div class="portal-bar__content">
+		<span class="portal-bar__logo"><img src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/img/logos/logo-portal-memorias-da-ditadura.svg" alt="Portal Memórias da Ditadura" /></span>
+	</div>
+</a>
+<div class="wrapper">
+
+	<div id="headerwrap">
+
+					<h1><a class="site-logo default-text" href="http://memoriasdaditadura.org.br" title="Voltar para Home"><img alt="Memórias da Ditadura" src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/img/logos/memorias-da-ditadura.svg" /></a></h1>
+		
+				<!-- /#header -->
+	</div>
+
+
+	
+	<div class="header-map">
+		
+<div class="map-container">
+	<div id="map_12_0" class="map"></div>
+						<div class="highlight-point transition has-end" data-end="1300"></div>
+							<a class="button light home-link" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/" title="Voltar para o mapa principal">Voltar para o mapa principal</a>
+	</div>
+<script type="text/javascript">jeo(jeo.parseConf({"layers":[{"type":"stamen_toner","id":"http:\/\/{s}.tile.stamen.com\/toner\/{z}\/{x}\/{y}.png"}],"min_zoom":"","max_zoom":"","center":{"lat":"-16.045813453752157","lon":"-56.6015625"},"zoom":"4","pan_limits":{"east":"","north":"","south":"","west":""},"disable_mousewheel":"on","dataReady":true,"postID":12,"title":"mapa home","legend":"","conf":{"postID":12,"count":0,"mainMap":true}}));</script>	</div>
+	<div class="content-wrapper clearfix">
+		<article id="content" class="post-wrapper ">
+				<div class="single-post">
+					<a class="default-text back-home" href="http://memoriasdaditadura.org.br/mapas-da-ditadura" title="Voltar para Home">Voltar Para o Mapa</a>
+					<header class="single-post-header clearfix ">
+						<div class="single-post-header-img">
+													</div>
+						<div class="single-post-header-container">
+							<h1 class="default-text post-title">Laís Abramo</h1>
+							<div class="header-meta default-text">
+															</div>
+						</div>
+					</header>
+
+					<div class="post-content ">
+						<section class="post-content-box">
+														<!-- h5><span class="lsf">&#xE10b;</span>Depoimento</h5-->
+							<p><strong>Memórias do golpe </strong><br />
+Laís Abramo, 3/5/2014</p>
+<p>Março/abril de 1964</p>
+<p>Eu tinha pouco menos de 10 anos e morávamos em Brasília desde junho de 1962. Meu pai e minha mãe tinham pouco mais de 30 anos, meu irmão Mario quase 8, minha irmã Lena tinha 5 anos e meio e a Bia era um bebê de 6 meses. Meus pais davam aulas na Universidade de Brasília, a Unb. Faziam parte da equipe de professores contratada por Darcy Ribeiro, que havia percorrido o país em busca de homens e mulheres que aceitassem o desafio de construir uma nova universidade, moderna e comprometida com os objetivos do desenvolvimento nacional e da justiça social, na também nova e moderna capital do Brasil. Brasília naquela época era uma cidade já monumental, mas também pouco mais que um grande acampamento circundado pelo cerrado e pelos amplos horizontes do Planalto Central. Na juventude dos seus pouco mais de 30 anos, eles estavam cheios de energia e entusiasmo para enfrentar esse desafio com toda a dedicação. Antes disso, meu pai havia estado em Brasília em 1960 chefiando a equipe de reportagem do Estadão que cobriu a inauguração da cidade e da qual faziam parte Vladimir Herzog e Fernando Pacheco Jordão. Por esse trabalho, ganhou o “Prêmio Esso de Reportagem” de 1960.</p>
+<p>Tenho lembranças muito felizes desse tempo. Gostava da escola, de ir para a Pracinha, de brincar com meu irmão e minhas irmãs e também com os meninos e meninas da quadra naqueles espaços verdes que naquela época só tinham grama e nenhuma árvore, e que possibilitavam um contato precioso entre as crianças. Em casa ouvíamos Louis Armstrong (o “Cachorrão”, como dizia meu pai, especialmente o Louis and the Bible, que até hoje é o meu disco preferido dele), Juca Chaves (Presidente Bossa Nova a outras músicas mais românticas), a músicas do CPC da UNE (“subdesenvolvido, subdesenvolvido, subdesenvolvido, é o meu país”&#8230;. ). Sentia saudades dos meus primos, avós, avô, tios e tias que haviam ficado em São Paulo, mas me sentia bem e muito protegida na minha família.</p>
+<p>Mas nuvens carregadas começaram a se acumular no céu do Planalto Central e logo a situação mudou. Lembro do tio Cláudio (Claudio Abramo), que foi passar um fim de semana conosco, vindo de S.Paulo, e as longas conversas entre ele, minha mãe e meu pai. Ele se despediu de nós na frente do sobradinho em que vivíamos no que hoje é a 707 Sul dizendo que a situação estava muito grave e que deveríamos esperar pelo pior. Estávamos nos últimos dias do mês de março, e os semblantes dos 3 nessa hora estavam muito tensos.</p>
+<p>Lembro, depois, dos tanques militares percorrendo a W3 e o impacto que isso me causou. Lembro do meu pai e da minha mãe falando sobre a invasão da Unb por tropas do Exército e como eles tentaram defender e proteger os estudantes nessa hora. Lembro que meu pai sumiu de casa uns dias (minha mãe diz que foram só dois; mas a minha sensação é que foram muitos mais), depois voltou, depois sumiu de novo, e o desassossego que isso me provocou. Aqui minhas lembranças se misturam com o que me foi contado pela minha mãe, tempos depois: inquieta com a ausência do meu pai por vários dias, um dia eu disse pra ela, assim, na lata: “Você vai me dizer agora onde o meu pai está”. Ela relata a angústia que sentiu na ocasião: apesar de não ter duvidado, por nenhum momento, em me contar a verdade, não sabia como dizer para uma menina de 9 anos que o pai dela estava preso, mas não por ser um bandido ou por ter feito algo errado. Não sei como ela fez, e não me lembro exatamente do que ela me disse, mas tenho certeza de ela teve a sensibilidade e a sabedoria para conseguir seu objetivo: me contou que ele estava preso, eu evidentemente fiquei triste e assustada e provavelmente sem entender direito o que estava acontecendo; mas nunca fiquei com a sensação de que ele tinha feito algo errado. Muito pelo contrário.</p>
+<p>Lembro também do dia em que eu fiquei mais assustada: estávamos brincando na Pracinha 21 de Abril (eu, Mario, Lena, nossas amiguinhas Lilia e Lúcia); minha mãe estava conosco, tomando conta da Bia que estava no carrinho e conversando com a mãe das meninas, D. Nélida. Eu sabia que ela era enfermeira. E quando a ouvi dizer à minha mãe, em voz baixa e grave, “se precisarem dos meus serviços eu estou à disposição”, aí sim eu tive medo. Vieram à minha cabeça aquelas imagens de filmes onde as enfermeiras cuidam dos feridos de guerra e eu senti que a situação era mesmo de muito perigo.</p>
+<p>Lembro de um fim de semana, no período em que meu pai estava preso, em que estávamos em casa com minha mãe e a Glorinha, esposa do Teodoro, colega do meus pais na Unb. Ela estava grávida e ele também havia se escondido. Elas dividiam conosco papéis e mais papéis com textos mimeografados e nos pediam para ajudar a rasgá-los e depois molhar e fazer não sei o que de papel machê. Isso tinha um lado divertido, de brincadeira (poder rasgar papel à vontade e fazer bagunça com água), mas eu tinha a nítida sensação de que havia algo grave e de risco nisso tudo.</p>
+<p>Depois meu pai foi solto e logo depois demitido da Universidade. Durante um tempo não podia sair de Brasília por estar respondendo a um inquérito policial militar (os famosos IPMs). Quando essa proibição terminou, meus pais decidiram voltar para S. Paulo. Com muita tristeza, amargura e uma sensação de derrota.</p>
+<p>Minha mãe retomou seu emprego de funcionária do governo do Estado e meu pai ficou desempregado. Ele havia trabalhado 10 anos como jornalista no Estadão antes da<br />
+mudança para Brasília, mas, naquele momento todas as portas se fecharam para ele porque toda a grande imprensa havia apoiado o Golpe. Foram momentos muito difíceis. Retomamos nossa vida escolar, de crianças, a convivência com a família e tudo, mas lembro como se fosse hoje da sensação sombria que marcou aqueles meses.</p>
+<p>Até que minha mãe recebeu um convite de Jorge Hage, querido baiano que eles haviam conhecido na Unb, e de quem tinham ficado amigos (ele era “instrutor” na faculdade de Administração, onde minha mãe era professora). O convite era para trabalhar em um projeto de reforma do governo do estado da Bahia. Meus pais nos deixaram uma semana com minha avó e foram lá conferir a oferta. Voltaram entusiasmados e decididos a empreender a aventura de uma nova mudança, dessa vez para a Bahia. A família ficou apreensiva: o que eles, com quatro filhos, entre 10 (eu) e 1 ano (a Bia), iam fazer tão longe da família e numa terra tão desconhecida como a Bahia (sinais do etnocentrismo paulista)? Mas eles estavam decididos. Meu marido, Álvaro, exilado pela ditadura chilena aos 23 anos, por um período de 14 anos, sempre diz que, no nosso caso, como o Brasil é tão grande, a ida para a Bahia equivaleu naquele momento a um “exílio interno”.</p>
+<p>Meu pai decidiu que não voltaria a Brasília enquanto a ditadura não acabasse. Manteve essa decisão por mais de uma década, até que, em 1975, veio passar as férias na cidade com minha mãe e minhas irmãs menores. Mas se recusou, na ocasião, a voltar ao campus da Unb.</p>
+<p>Eu só voltei a Brasília muito tempo depois, em 1992, para um seminário. Vim morar aqui com meu marido, minha filha e meu filho em 2004. Quando meus filhos entraram na Unb e, especialmente, quando minha filha Laura recebeu o título de Bacharel em Ciências Econômicas da Unb, à minha alegria e emoção de assistir e compartilhar com ela o encerramento de uma fase importante da sua vida e sua formação, somou-se um sentimento de reparação. Era como se meu pai também estivesse de alguma forma voltando à essa universidade através dos meus filhos.</p>
+<p>XXX</p>
+<p>Minha mãe, Zilah Wendel Abramo, descreve assim a experiência dela e de meu pai da vinda para Brasília e para a Unb e da posterior expulsão, em um texto por ela escrito em 1978:</p>
+<p>TEXTO ZILAH WENDEL ABRAMO (1978)<br />
+“Era uma vez um grupo de gente que abandonou tudo o que tinha – não era muito, era apenas tudo: a família maior, amigos, empregos, para tentar a grande aventura de criar uma Universidade. Não eram atraídos por salários especialmente altos, ou por glórias acadêmicas maiores do que as que poderiam pretender nos seus estados de origem. Além do<br />
+espírito de aventura, movia-os apenas a Esperança. A Fé veio depois, à medida em que o campus ia sendo literalmente construído, à medida em que currículos inéditos iam sendo montados, à medida em que toda a estrutura inovadora ia mostrando suas potencialidades e seu comprometimento com a realidade nacional.</p>
+<p>O começo foi difícil: foi preciso suportar a precariedade das instalações, as distâncias infinitas, a poeira vermelha que marcava tudo e transformava as crianças em bichos estranhos, a secura do ar que rachava a pele. Foi preciso acumular o cansaço das aulas a preparar, da organização a montar, da mudança, da instalação, da adaptação sem a ajuda providencial de sogras, tias, irmãs e cunhadas. Foi preciso aprender a dar aulas em salas improvisadas, a falar mais alto do que os tratores que abriam as ruas do campus, a improvisar textos mimeografados para suprir os livros que não existiam. Foi preciso vencer as inevitáveis divergências (cada um tinha a “sua Universidade” na cabeça) e a novidade das ciumeiras regionais.</p>
+<p>Mas quanta compensação! A alegria de ver crescer, a um tempo, a cidade e um projeto de trabalho, as amizades que se consolidavam em torno das realizações e das dificuldades comuns, a emoção de acompanhar o desenvolvimento das árvores e dos primeiros gramados plantados, a experiência enriquecedora de conviver com gente de todo o Brasil (o que, pela primeira vez, evidenciou para a gente o vergonhoso provincianismo paulista), o horizonte infinito, as ocultas e maravilhosas flores do cerrado e, acima de tudo, aqueles alunos. Acima de tudo o entusiasmo com que eles se dispunham a edificar a Universidade, literalmente com as próprias mãos, muitos deles adultos, pais e mães de família, que encontravam enfim a oportunidade de estudar que lhes havia sido negada nos seus estados de origem. Com eles e para eles qualquer sacrifício era válido, qualquer esperança viável.</p>
+<p>Até que um dia, essa gente teve que assistir à brutalidade do cerco militar e da invasão. O campus ocupado, professores e alunos presos ou afastados arbitrariamente, caixotes de livros e papéis de trabalho vasculhados à procura de inexistentes armas. E um inquérito ridículo que nada concluiu. Mais uma vez a compensação veio dos alunos, que, inquiridos, não disseram uma só palavra que pudesse incriminar os professores.</p>
+<p>Enfim, em episódios sucessivos que duraram até hoje, a destruição, o esmagamento sistemático do único projeto de Universidade digno desse nome que jamais foi tentando no Brasil.”</p>
+						</section>
+
+					</div>
+					<div class="middle-content">
+						<section class="post-content-box">
+							
+																				</section>
+											</div>
+				</section>
+				<section class="post-map-container">
+					<h3 class="default-text post-map-container__title">Mapa</h3>
+					<span class="default-text post-map-container__info">Laís Abramo</span>
+					<span class="default-text post-map-container__info"></span>
+				</section>
+				
+<div class="map-container">
+	<div id="map_12_1" class="map"></div>
+						<div class="highlight-point transition has-end" data-end="1300"></div>
+							<a class="button light home-link" href="http://memoriasdaditadura.org.br/mapas-da-ditadura/" title="Voltar para o mapa principal">Voltar para o mapa principal</a>
+	</div>
+<script type="text/javascript">jeo(jeo.parseConf({"layers":[{"type":"stamen_toner","id":"http:\/\/{s}.tile.stamen.com\/toner\/{z}\/{x}\/{y}.png"}],"min_zoom":"","max_zoom":"","center":{"lat":"-16.045813453752157","lon":"-56.6015625"},"zoom":"4","pan_limits":{"east":"","north":"","south":"","west":""},"disable_mousewheel":"on","dataReady":true,"postID":12,"title":"mapa home","legend":"","conf":{"postID":12,"count":1,"mainMap":true}}));</script>			</article>
+	</div>
+
+
+
+<footer class="footer-wrapper">
+    <div class="contact-list--wrapper">
+        <ul class="contact-list">
+            <li class="contact-list__item">
+                <a class="contact-list__anchor contact-list__anchor--twitter" href="https://twitter.com/memoriaditadura" title="Acesse o nosso twitter"><span class="visuallyhidden">twitter</span><svg viewBox="0 0 13 12" style="background-color:#ffffff00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px" width="13px" height="12px">
+	<g>
+		<path class="icon-twitter" d="M 13 2.0703 C 12.5459 2.2676 12.0576 2.4023 11.5479 2.4629 C 11.5449 2.4541 11.541 2.4453 11.5371 2.4365 C 12.0771 2.1201 12.4941 1.6172 12.6992 1.0166 C 12.543 1.1123 11.7881 1.5371 11.0518 1.6738 C 10.5723 1.1475 9.8799 0.8174 9.1123 0.8174 C 7.4873 0.8174 6.4863 2.1504 6.4863 3.4424 C 6.4863 3.543 6.5342 3.96 6.542 3.9834 C 4.3594 3.9365 2.4229 2.8867 1.1768 1.2754 C 0.2842 2.9004 1.2188 4.3096 1.8604 4.8125 C 1.4883 4.8066 1.1338 4.7256 0.8105 4.585 C 0.8789 5.835 1.7842 6.8623 2.9736 7.1182 C 2.4971 7.252 1.9248 7.1494 1.7041 7.0928 C 2.0557 8.1387 3.0195 8.9023 4.1709 8.959 C 2.4102 10.2529 0.5107 10.1211 0.4805 10.1201 C 1.5957 10.7891 2.9023 11.1836 4.2979 11.1738 C 9.4121 11.1416 12.0381 6.6016 11.7256 3.3447 C 12.2861 3.083 12.7393 2.6299 13 2.0703 L 13 2.0703 Z" fill="#000000"/>
+	</g>
+</svg></a>
+            </li>
+            <li class="contact-list__item">
+                <a class="contact-list__anchor contact-list__anchor--facebook" href="https://www.facebook.com/memoriaditadura" title="Acesse o nosso facebook"><span class="visuallyhidden">facebook</span><svg viewBox="0 0 7 12" style="background-color:#ffffff00" version="1.1"	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px" width="7px" height="12px" >	<g>		<path class="icon-facebook" d="M 0.8027 3.9482 L 2.0557 3.9482 L 2.0557 3.3809 L 2.0557 2.8232 L 2.0557 2.7305 C 2.0557 2.1943 2.0693 1.3652 2.459 0.8535 C 2.8701 0.3096 3.4336 -0.0586 4.4033 -0.0586 C 5.9844 -0.0586 6.6504 0.167 6.6504 0.167 L 6.3359 2.0225 C 6.3359 2.0225 5.8145 1.8721 5.3271 1.8721 C 4.8408 1.8721 4.4033 2.0459 4.4033 2.5332 L 4.4033 2.7305 L 4.4033 3.3809 L 4.4033 3.9482 L 6.4014 3.9482 L 6.2627 5.7607 L 4.4033 5.7607 L 4.4033 12.0586 L 2.0557 12.0586 L 2.0557 5.7607 L 0.8027 5.7607 L 0.8027 3.9482 L 0.8027 3.9482 Z" fill="#000000"/>	</g></svg></a>
+            </li>
+            <li class="contact-list__item">
+                <a class="contact-list__anchor contact-list__anchor--mail" href="mailto:contato@memoriasdaditadura.org.br" title="Envia sua mensagem"><span class="visuallyhidden">e-mail</span><svg viewBox="0 0 18 12" style="background-color:#ffffff00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"	x="0px" y="0px" width="18px" height="12px">
+	<g class="icon-mail">
+		<path d="M 17.1045 10.8447 L 0.5176 10.8447 L 0.5176 1.1338 L 17.1045 1.1338 L 17.1045 10.8447 Z" stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 0.5166 1.1338 L 8.8105 5.9893 L 17.1035 1.1338 L 17.1035 1.1338 " stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 0.2002 11.1611 L 17.4209 11.1611 L 17.4209 0.8174 L 0.2002 0.8174 L 0.2002 11.1611 Z" fill="none"/>
+		<path d="M 10.2383 5.1543 L 17.1045 10.8447 L 17.1045 10.8447 " stroke="#000000" stroke-width="1" fill="none"/>
+		<path d="M 7.3828 5.1543 L 0.5166 10.8447 L 0.5166 10.8447 " stroke="#000000" stroke-width="1" fill="none"/>
+	</g>
+</svg></a>
+            </li>
+        </ul>
+        <ul class="contact-list contact-list--contact-itens">
+            <li class="contact-list__item"><a class="contact-list__anchor default-text" href="http://memoriasdaditadura.org.br/sobre-o-projeto/">Sobre</a></li>
+            <li class="contact-list__item"><a class="contact-list__anchor default-text" href="http://memoriasdaditadura.org.br/creditos/">Créditos</a></li>
+            <li class="contact-list__item"><a class="contact-list__anchor default-text" href="http://memoriasdaditadura.org.br/links/">Links</a></li>
+            <li class="contact-list__item"><a class="contact-list__anchor default-text" href="http://memoriasdaditadura.org.br/entre-em-contato/">Contato</a></li>
+            <li class="contact-list__item"><a class="contact-list__anchor default-text" href="http://memoriasdaditadura.org.br/termos-de-uso/">Termos de uso</a></li>
+        </ul>
+    </div>
+    <ul class="sponsors-list">
+        <li class="sponsors-list__item"><a title="Acesse o site do Instituto Vladimir Herzog" class="sponsors-list__anchor" href="http://vladimirherzog.org/"><img alt="logo Instituto Vladimir Herzog" class="sponsors-list__image" src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/img/logos/logo-ivh.jpg"></a></li>
+        <li class="sponsors-list__item"><a title="Acesse o site do Programa das Nações Unidas para o Desenvolvimento" class="sponsors-list__anchor" href="http://www.pnud.org.br/"><img class="sponsors-list__image" alt="Logo Programa das Nações Unidas para o Desenvolvimento" src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/img/logos/pnud.png"></a></li>
+        <li class="sponsors-list__item"><a title="Acesse o site da Secretaria de Direitos Humanos" class="sponsors-list__anchor" href="http://www.sdh.gov.br/"><img alt="logo Secretaria de Direitos Humanos" class="sponsors-list__image" src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/cartografiadh/img/logos/logo-sdh.jpg"></a></li>
+    </ul>
+
+</footer>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type="text/javascript" src="http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/streetview.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+    <script type="text/javascript">
+
+        //Applies the slider in home template for the depositions and videos container
+        $(document).ready(function() {
+
+            var depositionContainer = $('#js-depositions-slider'),
+                videosListcontainer = $('#js-videos-list');
+
+            if (depositionContainer.length) {
+
+                depositionContainer.slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    responsive: [
+                        {
+                            breakpoint : 900,
+                            settings : {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+
+            }
+
+            if (videosListcontainer.length) {
+
+                videosListcontainer.slick({
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    responsive: [
+                        {
+                            breakpoint : 900,
+                            settings : {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+
+            }
+
+        });
+
+        //Applies the youtube video play in the videos section (home)
+        $(document).ready(function() {
+            var videosList = $('#js-videos-list');
+
+            if (videosList.length) {
+
+                videosList.on('click', '.videos-list__anchor', function (evt) {
+
+                    var _this = $(this),
+                        anchor = _this.attr('data-embed');
+
+                    evt.preventDefault();
+
+                    _this.append(
+                        '<div class="embed-figure__container">' +
+                            '<iframe src="' + anchor + '?autoplay=1" frameborder="0" allowfullscreen></iframe>' +
+                         '</div>'
+                    );
+
+                });
+
+            }
+
+        });
+
+        //Does the map hook animation
+        $(document).ready(function() {
+            var navigationContainer = $('#js-navigation-list');
+
+            if (navigationContainer.length) {
+
+                var currentItem = navigationContainer.find('.current-menu-item:first');
+
+                if (currentItem.length) {
+
+                    $('html, body').animate({
+
+                        scrollTop: currentItem.offset().top - 40
+
+                    }, 700);
+
+                }
+
+            }
+
+        });
+
+        //Bind a scroll event to the header button
+        $(document).ready(function() {
+
+            var gotoMapAnchor = $('#js-go-to-map');
+
+            if (gotoMapAnchor.length) {
+
+                gotoMapAnchor.on('click', function (evt) {
+
+                    var selectedAnchor = $(this).attr('href');
+
+                    evt.preventDefault();
+
+                    $('html, body').animate({
+
+                        scrollTop: $(selectedAnchor).offset().top - 40
+
+                    }, 700);
+
+                })
+
+            }
+
+        });
+
+        //The analytics code
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-56666960-1', 'auto');  ga('send', 'pageview');
+
+    </script>
+			<div id="add_artwork">
+				<h2 class="lightbox_title"><span class="lsf">&#xE041;</span> Enviar uma sugestão</h2>
+				<div class="lightbox_content">
+					<p>Para enviar uma sugestão, é necessário estar logado. Faça o login abaixo:</p>
+					 <!-- OneAll.com / Social Login for WordPress / v4.6 -->
+<div class="oneall_social_login">
+ <div class="oneall_social_login_label" style="margin-bottom: 3px;"><label>Connect with:</label></div>
+ <div class="oneall_social_login_providers" id="oneall_social_login_providers_7824291"></div>
+ <script type="text/javascript">
+  var _oneall = _oneall || [];
+  _oneall.push(['social_login', 'set_providers', ['blogger','facebook','google','openid']]);
+  _oneall.push(['social_login', 'set_callback_uri', (window.location.href + ((window.location.href.split('?')[1] ? '&amp;': '?') + "oa_social_login_source=custom"))]);
+  _oneall.push(['social_login', 'set_custom_css_uri', 'http://public.oneallcdn.com/css/api/socialize/themes/wordpress/default.css']);
+  _oneall.push(['social_login', 'do_render_ui', 'oneall_social_login_providers_7824291']);
+ </script>
+</div>				</div>
+			</div>
+		<link rel='stylesheet' id='range-slider-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/range-slider/css/classic-min.css?ver=4.0.24' type='text/css' media='all' />
+<link rel='stylesheet' id='jeo-range-slider-css'  href='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/css/range-slider.css?ver=4.0.24' type='text/css' media='all' />
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/comment-reply.min.js?ver=4.0.24'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jeo_markers = {"ajaxurl":"http:\/\/memoriasdaditadura.org.br\/mapas-da-ditadura\/wp-admin\/admin-ajax.php","query":{"p":179,"error":"","m":"","post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":1,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"ignore_sticky_posts":false,"cache_results":true,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":{"videos":"videos","depoimentos":"depoimentos","texts":"texts","0":"post"},"posts_per_page":200,"nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC","post_status":"publish"},"markerextent":"1","markerextent_defaultzoom":"","enable_clustering":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/markers.js?ver=0.2.18'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/jquery.mousewheel.js?ver=4.0.24'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/range-slider/jQAllRangeSliders-withRuler-min.js?ver=4.0.24'></script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/lib/moment.js?ver=4.0.24'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jeo_range_slider_options = {"rangeType":"dateRangeSlider","options":{"dateFormat":"DD\/MM\/YYYY"}};
+var jeo_range_slider_options = {"rangeType":"dateRangeSlider","options":{"dateFormat":"DD\/MM\/YYYY"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://memoriasdaditadura.org.br/mapas-da-ditadura/wp-content/themes/jeo/inc/js/range-slider.js?ver=0.1.3'></script>
+</div>
+</body>
+</html>
